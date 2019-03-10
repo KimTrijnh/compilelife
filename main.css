@@ -20,12 +20,12 @@ header {
 }
 .header-arrow {
     width: 10%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     bottom: 0;
     margin-left: 45%;
 }
 .fa-angle-down {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .main-bar {
