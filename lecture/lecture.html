@@ -40,8 +40,10 @@
     </nav>
 
     <header>
-        <div class="header-side pt-5">
-            <div class="header-title mx-auto">
+        <!-- sidebar -->
+        <div class="header-side pt-5 ">
+            <!-- menu -->
+            <div class="header-title mx-auto hidden">
                 <h1 class="my-5">Swift Basic</h1>
                 <h3 class="my-5 py-5">Lecture 10: Data construction</h2>
                     <div class="d-flex justify-content-between mt-5">
@@ -51,13 +53,33 @@
 
                     </div>
             </div>
+            <!-- sidebar playlist -->
+            <div class="px-5">
+                <h1 class="my-5">Swift Basic</h1>
+                <div class="playlist">
+                    <div class="text-center display-4"><i class="fas fa-caret-up"></i></div>
+                    <ul class="playlist-slide list-unstyled ">
+                        <li class="playlist-item border-bottom py-3"><a class="text-light" href="">3: Set up</a></li>
+                        <li class="playlist-item border-bottom py-3"><a class="text-light" href="">3: Set up</a></li>
+                        <li class="playlist-item border-bottom py-3"><a class="text-light" href="">3: Set up</a></li>
+                        <li class="playlist-item border-bottom py-3"><a class="text-light" href="">3: Set up</a></li>
+                    </ul>
+                    <div class="text-center display-4"><i class="fas fa-caret-down"></i></div>
+                </div>
+            </div>
 
+            <!-- bottom navbar -->
             <ul class="navbar-nav navbar-expand d-flex justify-content-around header-side-nav py-2">
                 <li class="nav-item"><a class="nav-link color-pale" href="">Playlist</a></li>
                 <li class="nav-item"><a class="nav-link color-pale color-active" href="">Menu</a></li>
                 <li class="nav-item"><a class="nav-link color-pale" href="">Comments</a></li>
             </ul>
+        </div>
 
+
+        <img class="menu-btn" src="/img/dots-icon.png" width="64px" />
+        <div class="chat-btn">
+            <img class="chat-img" src="/img/chat-icon.png" alt=""/ width="64px">
         </div>
 
     </header>
@@ -72,16 +94,16 @@
                 <p class="answer-content">You need to add constraints</p>
             </div>
             <div class="ask-item mb-3 mt-5">
-                    <div class="ask-content">
-                        <h2 class="mb-3">Help</h2>
-                        <p>Please help me on 10min 13 sec, cant figure out layout</p>
-                    </div>
-                    <hr class="my-4">
-                    <p class="answer-content">You need to add constraints</p>
+                <div class="ask-content">
+                    <h2 class="mb-3">Help</h2>
+                    <p>Please help me on 10min 13 sec, cant figure out layout</p>
                 </div>
+                <hr class="my-4">
+                <p class="answer-content">You need to add constraints</p>
+            </div>
         </div>
     </section>
-    <script src="main.js"></script>
+    <script src="lecture.js"></script>
 </body>
 
 </html>

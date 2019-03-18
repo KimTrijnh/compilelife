@@ -6,6 +6,35 @@ header {
     width: 100%;
     height: 100vh;
 }
+.hidden {
+    display: none;
+}
+.menu-btn {
+    position: absolute;
+    right: 30px;
+    top: 80px;
+    z-index: 1;
+}
+
+.chat-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 140px;
+    height: 140px;
+    background: #E41B67;
+    border-radius: 140px 0 0 0;
+    -moz-border-radius: 140px 0 0 0;
+    -webkit-border-radius: 140px 0 0 0;
+    z-index: 1;
+
+}
+.chat-img {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1;
+}
 
 .header-side {
     background-image: linear-gradient(to bottom, rgba(201, 53, 43, 0.8), rgba(55, 128, 185, 1));
@@ -57,4 +86,8 @@ border-radius: 50px;
 }
 .answer-content {
     color: #3C7CB7;
+}
+
+.playlist-item {
+    font-size: 1.4rem;
 }
